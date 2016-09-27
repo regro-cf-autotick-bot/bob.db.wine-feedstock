@@ -1,4 +1,4 @@
-{% set version = "2.0.4" %}
+{% set version = "2.0.6" %}
 
 package:
   name: bob.db.wine
@@ -6,7 +6,7 @@ package:
 
 source:
   fn: bob.db.wine-{{ version }}.zip
-  md5: bb12c4c6ef29f81e34a42d2682152346
+  md5: 72d159ba003535de26d42061ee6a97cb
   url: https://pypi.io/packages/source/b/bob.db.wine/bob.db.wine-{{ version }}.zip
 
 build:
@@ -37,7 +37,7 @@ test:
     - nose
 
 about:
-  home: https://pypi.python.org/pypi/bob.db.wine
+  home: https://www.idiap.ch/software/bob/
   license: GNU General Public License v3 (GPLv3)
   summary: Wine Database for bob
 
