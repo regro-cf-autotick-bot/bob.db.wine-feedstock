@@ -1,4 +1,4 @@
-{% set version = "2.0.6" %}
+{% set version = "2.1.9" %}
 
 package:
   name: bob.db.wine
@@ -6,7 +6,7 @@ package:
 
 source:
   fn: bob.db.wine-{{ version }}.zip
-  md5: 72d159ba003535de26d42061ee6a97cb
+  md5: c482e07ed013f6472684c0eb1e2d9e02
   url: https://pypi.io/packages/source/b/bob.db.wine/bob.db.wine-{{ version }}.zip
 
 build:
